@@ -1,0 +1,135 @@
+/* =====================================================
+   BODY = THE ENTIRE PAGE
+   Sets the overall vibe of the site
+===================================================== */
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Modern clean font */
+    margin: 40px; /* Space around page */
+    color: #222; /* Default text color */
+    background: radial-gradient(circle at top left, #ff9a9e, #fad0c4, #fad390); /* Fun gradient */
+    min-height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* =====================================================
+   MAIN TITLE (H1)
+   Big bold heading at the top
+===================================================== */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff; /* White text pops on gradient */
+    font-size: 2.5em; /* Bigger size */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3); /* Glow effect */
+}
+
+/* =====================================================
+   TABLE DESIGN
+   Holds all shopping cart items
+===================================================== */
+table {
+    width: 90%; /* Not full width, leaves space */
+    border-collapse: collapse; /* Clean edges */
+    background-color: #fff; /* White background */
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15); /* Stronger shadow */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; /* Keeps corners neat */
+    margin-bottom: 20px;
+}
+
+/* =====================================================
+   TABLE HEADERS
+   Top row labels
+===================================================== */
+th {
+    background: linear-gradient(90deg, #ff6a00, #ee0979); /* Cool gradient header */
+    color: white;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* =====================================================
+   TABLE CELLS
+   Normal rows with data
+===================================================== */
+td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+}
+
+/* Row hover effect */
+tr:hover {
+    background-color: #fdf2f8; /* Soft pink highlight */
+}
+
+/* =====================================================
+   GENERAL BUTTON STYLE
+   Base look for all buttons
+===================================================== */
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px; /* Pill-shaped buttons */
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+/* Button hover = slight zoom */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* =====================================================
+   ADD BUTTON (Green)
+===================================================== */
+.add-btn {
+    background: linear-gradient(90deg, #34d399, #10b981); /* Gradient green */
+    color: white;
+}
+.add-btn:hover {
+    background: #059669; /* Darker green */
+}
+
+/* =====================================================
+   REMOVE BUTTON (Red)
+===================================================== */
+.remove-btn {
+    background: linear-gradient(90deg, #f87171, #ef4444); /* Gradient red */
+    color: white;
+}
+.remove-btn:hover {
+    background: #dc2626; /* Darker red */
+}
+
+/* =====================================================
+   CHECKOUT BUTTON (Purple)
+===================================================== */
+.checkout-btn {
+    background: linear-gradient(90deg, #8b5cf6, #6366f1); /* Gradient purple */
+    color: white;
+    padding: 12px 24px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.checkout-btn:hover {
+    background: #4f46e5; /* Darker purple */
+}
+
+/* =====================================================
+   TOTAL AMOUNT DISPLAY
+===================================================== */
+#total {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff; /* White text on gradient background */
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3); /* Glow effect */
+}

@@ -1,0 +1,230 @@
+/* =========================================================
+   RESET
+   This makes sizing predictable across all browsers
+   ========================================================= */
+* {
+    box-sizing: border-box;
+}
+
+/* =========================================================
+   PAGE BACKGROUND
+   Handles font, centering, and animated background colors
+   ========================================================= */
+body {
+    /* Default font for the whole page */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Remove browser default spacing */
+    margin: 0;
+
+    /* Make the body fill the entire screen height */
+    height: 100vh;
+
+    /* ---- Animated gradient background ---- */
+    /* Multiple soft colors blended together */
+    background: linear-gradient(
+        270deg,
+        #e0e7ff,
+        #f0f9ff,
+        #ecfeff,
+        #fef3c7
+    );
+
+    /* Make the gradient bigger than the screen
+       so it can move smoothly */
+    background-size: 600% 600%;
+
+    /* Run the animation forever */
+    animation: gradientShift 20s ease infinite;
+
+    /* ---- Center the app perfectly ---- */
+    display: flex;               /* Turn body into a flex container */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically */
+}
+
+/* =========================================================
+   BACKGROUND ANIMATION
+   Moves the gradient slowly left and right
+   ========================================================= */
+@keyframes gradientShift {
+
+    /* Starting position */
+    0% {
+        background-position: 0% 50%;
+    }
+
+    /* Middle position */
+    50% {
+        background-position: 100% 50%;
+    }
+
+    /* End position (loops back smoothly) */
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* =========================================================
+   MAIN APP CONTAINER
+   The white "card" holding the game
+   ========================================================= */
+.container {
+    /* White background so text is readable */
+    background-color: #ffffff;
+
+    /* Make the app bigger */
+    width: 420px;
+
+    /* Space inside the card */
+    padding: 40px 36px;
+
+    /* Rounded corners for a modern look */
+    border-radius: 16px;
+
+    /* Center text inside the card */
+    text-align: center;
+
+    /* Shadow for depth (professional look) */
+    box-shadow:
+        0 20px 40px rgba(0, 0, 0, 0.12),
+        0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================================
+   HEADINGS & TEXT
+   Controls font sizes and spacing
+   ========================================================= */
+h2 {
+    /* Remove default margin at the top */
+    margin: 0 0 10px;
+
+    /* Larger heading text */
+    font-size: 26px;
+
+    /* Slightly bold, not heavy */
+    font-weight: 600;
+
+    /* Dark readable color */
+    color: #111827;
+}
+
+.subtitle {
+    /* Space below subtitle */
+    margin: 0 0 26px;
+
+    /* Smaller helper text */
+    font-size: 15px;
+
+    /* Soft grey color */
+    color: #6b7280;
+}
+
+/* =========================================================
+   INPUT FIELD
+   Where the user types their guess
+   ========================================================= */
+input {
+    /* Fill the width of the card */
+    width: 100%;
+
+    /* Space inside the input */
+    padding: 14px;
+
+    /* Larger text for readability */
+    font-size: 18px;
+
+    /* Rounded corners */
+    border-radius: 12px;
+
+    /* Light border */
+    border: 1px solid #d1d5db;
+
+    /* Space below input */
+    margin-bottom: 18px;
+
+    /* Remove ugly default outline */
+    outline: none;
+}
+
+/* Highlight input when user clicks it */
+input:focus {
+    border-color: #2563eb;
+}
+
+/* =========================================================
+   BUTTON
+   Main action button
+   ========================================================= */
+button {
+    /* Fill the width of the card */
+    width: 100%;
+
+    /* Space inside the button */
+    padding: 14px;
+
+    /* Bigger readable text */
+    font-size: 18px;
+
+    /* Slightly bold text */
+    font-weight: 600;
+
+    /* Rounded corners */
+    border-radius: 12px;
+
+    /* Remove default border */
+    border: none;
+
+    /* Primary blue color */
+    background-color: #2563eb;
+
+    /* White text */
+    color: #ffffff;
+
+    /* Show pointer cursor on hover */
+    cursor: pointer;
+
+    /* Smooth hover/press animations */
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #1e4ed8;
+}
+
+/* Button press effect */
+button:active {
+    transform: scale(0.97);
+}
+
+/* =========================================================
+   FEEDBACK MESSAGE
+   Shows high / low / correct text
+   ========================================================= */
+#message {
+    /* Space above the message */
+    margin-top: 22px;
+
+    /* Slightly larger text */
+    font-size: 16px;
+
+    /* Bold so it stands out */
+    font-weight: 600;
+}
+
+/* =========================================================
+   MESSAGE COLORS
+   Applied dynamically using JavaScript
+   ========================================================= */
+.correct {
+    color: #16a34a;   /* Green = success */
+}
+
+.low {
+    color: #d97706;   /* Orange = too low */
+}
+
+.high {
+    color: #dc2626;   /* Red = too high */
+}

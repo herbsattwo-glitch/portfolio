@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Herbert Adogo Portfolio - Coder, Designer, YouTuber" />
+    <meta name="author" content="Herbert Adogo" />
+    <title>Herbert Adogo | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <div class="noise-overlay"></div>
+
+    <a class="menu-toggle rounded" href="#" aria-label="Toggle navigation menu"><i class="fas fa-bars"></i></a>
+
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">HA<span class="accent">.</span></a></li>
+            <li class="sidebar-nav-item"><a href="#page-top"><span class="nav-number">01.</span> Home</a></li>
+            <li class="sidebar-nav-item"><a href="#about"><span class="nav-number">02.</span> About</a></li>
+            <li class="sidebar-nav-item"><a href="#services"><span class="nav-number">03.</span> Skills</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio"><span class="nav-number">04.</span> Work</a></li>
+            <li class="sidebar-nav-item"><a href="#contact"><span class="nav-number">05.</span> Contact</a></li>
+        </ul>
+        <div class="sidebar-social">
+            <a href="https://github.com/herbsattwo-glitch?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/@HerbertPortfolio" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="sidebar-footer"><p>&copy; 2026 Herbert Adogo</p></div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header class="masthead" id="home">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-grid-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-animate="fade-down"><span class="badge-dot"></span> Available for projects</div>
+            <h1 class="hero-title" data-animate="fade-up">
+                <span class="title-line"><span class="title-word">Herbert</span></span>
+                <span class="title-line"><span class="title-word">Adogo<span class="accent">.</span></span></span>
+            </h1>
+            <div class="hero-roles" data-animate="fade-up" data-delay="200">
+                <span class="role-tag"><i class="fas fa-code"></i> Coder</span>
+                <span class="role-divider">/</span>
+                <span class="role-tag"><i class="fas fa-palette"></i> Designer</span>
+                <span class="role-divider">/</span>
+                <span class="role-tag"><i class="fab fa-youtube"></i> YouTuber</span>
+            </div>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="400">Building digital experiences that blend<br><span class="gradient-text">creativity with technology</span></p>
+            <div class="hero-cta" data-animate="fade-up" data-delay="600">
+                <a class="btn-glow" href="#portfolio"><span>View My Work</span><i class="fas fa-arrow-right"></i></a>
+                <a class="btn-outline-hero" href="#contact"><span>Get In Touch</span></a>
+            </div>
+            <div class="scroll-indicator" data-animate="fade-up" data-delay="800">
+                <div class="mouse"><div class="mouse-wheel"></div></div><span>Scroll to explore</span>
+            </div>
+        </div>
+        <div class="hero-floating-shapes"><div class="shape shape-1"></div><div class="shape shape-2"></div><div class="shape shape-3"></div><div class="shape shape-4"></div></div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="content-section" id="about">
+        <div class="container">
+            <div class="section-grid">
+                <div class="section-label" data-animate="fade-right"><span class="label-number">01</span><span class="label-line"></span><span class="label-text">About Me</span></div>
+                <div class="section-content">
+                    <h2 class="section-title" data-animate="fade-up">Where <span class="gradient-text">Design</span><br>meets <span class="gradient-text">Logic</span>.</h2>
+                    <p class="section-description" data-animate="fade-up" data-delay="200">I am a multi-disciplinary creator with a passion for bringing ideas to life. Whether I'm writing JavaScript for dynamic web apps, crafting visual identities as a designer, or sharing my journey and gaming content on YouTube, I strive to build things that are both <strong>functional</strong> and <strong>entertaining</strong>.</p>
+                    <div class="about-stats" data-animate="fade-up" data-delay="400">
+                        <div class="stat-card glass-card"><span class="stat-number" data-count="10">0</span><span class="accent">+</span><span class="stat-label">Projects Built</span></div>
+                        <div class="stat-card glass-card"><span class="stat-number" data-count="2">0</span><span class="stat-label">YT Channels</span></div>
+                        <div class="stat-card glass-card"><span class="stat-number" data-count="5">0</span><span class="accent">+</span><span class="stat-label">Skills Mastered</span></div>
+                    </div>
+                    <a class="btn-glow mt-4" href="#services" data-animate="fade-up" data-delay="600"><span>Explore My Skills</span><i class="fas fa-arrow-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="content-section section-dark" id="services">
+        <div class="container">
+            <div class="section-header text-center" data-animate="fade-up"><span class="section-eyebrow">Expertise</span><h2 class="section-title">What I <span class="gradient-text">Offer</span></h2></div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card-dark" data-animate="fade-up" data-delay="0"><div class="skill-icon-wrap"><div class="skill-icon"><i class="fas fa-code"></i></div><div class="skill-icon-glow"></div></div><h4 class="skill-title">Coding</h4><p class="skill-desc">Building interactive, responsive web applications using HTML, CSS, and JavaScript.</p><div class="skill-tags"><span class="skill-tag">HTML5</span><span class="skill-tag">CSS3</span><span class="skill-tag">JavaScript</span></div><div class="card-shine"></div></div>
+                <div class="skill-card glass-card-dark" data-animate="fade-up" data-delay="150"><div class="skill-icon-wrap"><div class="skill-icon"><i class="fas fa-pen-nib"></i></div><div class="skill-icon-glow"></div></div><h4 class="skill-title">Graphic Design</h4><p class="skill-desc">Crafting high-quality visuals, logos, and digital assets for brands and projects.</p><div class="skill-tags"><span class="skill-tag">Branding</span><span class="skill-tag">Logos</span><span class="skill-tag">UI/UX</span></div><div class="card-shine"></div></div>
+                <div class="skill-card glass-card-dark" data-animate="fade-up" data-delay="300"><div class="skill-icon-wrap"><div class="skill-icon"><i class="fab fa-youtube"></i></div><div class="skill-icon-glow"></div></div><h4 class="skill-title">Content Creation</h4><p class="skill-desc">Documenting my creative process, tutorials, and projects on my portfolio channel.</p><div class="skill-tags"><span class="skill-tag">Video</span><span class="skill-tag">Editing</span><span class="skill-tag">Storytelling</span></div><div class="card-shine"></div></div>
+                <div class="skill-card glass-card-dark" data-animate="fade-up" data-delay="450"><div class="skill-icon-wrap"><div class="skill-icon"><i class="fas fa-gamepad"></i></div><div class="skill-icon-glow"></div></div><h4 class="skill-title">Gaming</h4><p class="skill-desc">Engaging with the community through gameplay content on "The African Gamer."</p><div class="skill-tags"><span class="skill-tag">Streaming</span><span class="skill-tag">Community</span><span class="skill-tag">Reviews</span></div><div class="card-shine"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         PORTFOLIO — BENTO GRID LAYOUT
+         ═══════════════════════════════════════════════
+         
+         CARD SIZES:
+         • data-size="large"  → 2 columns × 2 rows (featured)
+         • data-size="wide"   → 2 columns × 1 row
+         • data-size="tall"   → 1 column  × 2 rows
+         • (no data-size)     → 1 column  × 1 row (default)
+         
+         ACCENT COLORS (set via style="--card-accent:"):
+         • Blue:    #0ea5e9
+         • Purple:  #8b5cf6
+         • Amber:   #f59e0b
+         • Pink:    #ec4899
+         • Green:   #22c55e
+         • Red:     #ef4444
+         • Teal:    #14b8a6
+         • Orange:  #f97316
+         
+         CATEGORIES: app, game, tool, design
+         
+         TO ACTIVATE AN EMPTY CARD:
+         1. Remove  pf-coming-soon  class
+         2. Fill in your info
+         3. Done! Counts auto-update.
+         
+         ═══════════════════════════════════════════════ -->
+    <section class="content-section section-portfolio" id="portfolio">
+        <div class="pf-ambient"><div class="pf-orb pf-orb-1"></div><div class="pf-orb pf-orb-2"></div><div class="pf-orb pf-orb-3"></div></div>
+
+        <div class="container">
+            <div class="section-header text-center" data-animate="fade-up">
+                <span class="section-eyebrow">Portfolio</span>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">A growing collection of things I've built</p>
+            </div>
+
+            <!-- FILTER BAR -->
+            <div class="pf-filter-bar" data-animate="fade-up" data-delay="200">
+                <div class="pf-filter-track">
+                    <button class="pf-filter-btn active" data-filter="all"><span class="pf-filter-icon"><i class="fas fa-border-all"></i></span><span>All</span><span class="pf-filter-count">0</span></button>
+                    <button class="pf-filter-btn" data-filter="app"><span class="pf-filter-icon"><i class="fas fa-laptop-code"></i></span><span>Apps</span><span class="pf-filter-count">0</span></button>
+                    <button class="pf-filter-btn" data-filter="game"><span class="pf-filter-icon"><i class="fas fa-dice"></i></span><span>Games</span><span class="pf-filter-count">0</span></button>
+                    <button class="pf-filter-btn" data-filter="tool"><span class="pf-filter-icon"><i class="fas fa-wrench"></i></span><span>Tools</span><span class="pf-filter-count">0</span></button>
+                    <button class="pf-filter-btn" data-filter="design"><span class="pf-filter-icon"><i class="fas fa-paint-brush"></i></span><span>Design</span><span class="pf-filter-count">0</span></button>
+                    <div class="pf-filter-slider"></div>
+                </div>
+            </div>
+
+            <div class="pf-project-count" data-animate="fade-up" data-delay="300">
+                <span class="pf-count-number">0</span><span class="pf-count-label">Projects</span>
+            </div>
+
+            <!-- ═══════════ BENTO GRID ═══════════ -->
+            <div class="bento-grid">
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 1 — FEATURED (LARGE)     │
+                     │ Accent: Blue                     │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card" data-size="large" data-category="app" data-index="0" data-accent="#0ea5e9">
+                    <div class="bento-card-glow"></div>
+                    <div class="bento-card-inner">
+                        <div class="bento-curtain"></div>
+                        <a href="Practice Pizza/practice_pizza.html" class="bento-img-link">
+                            <img src="assets/img/pizza app.jpg" alt="Pizzeria" loading="lazy" />
+                        </a>
+                        <div class="bento-gradient"></div>
+                        <div class="bento-badge"><i class="fas fa-star"></i> Featured</div>
+                        <span class="bento-watermark">01</span>
+                        <div class="bento-hover">
+                            <div class="bento-hover-top">
+                                <span class="bento-cat"><i class="fas fa-pizza-slice"></i> JavaScript App</span>
+                            </div>
+                            <div class="bento-hover-bottom">
+                                <h3 class="bento-title">Pizzeria<span class="accent">.</span></h3>
+                                <p class="bento-desc">Real-time ordering system with dynamic pricing, topping selection, and delivery cost calculator.</p>
+                                <div class="bento-stack">
+                                    <span class="bento-tag-0">HTML5</span>
+                                    <span class="bento-tag-1">CSS3</span>
+                                    <span class="bento-tag-2">JavaScript</span>
+                                </div>
+                                <div class="bento-actions">
+                                    <a href="Practice Pizza/practice_pizza.html" class="bento-btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                                    <a href="https://github.com/herbsattwo-glitch/Practice-Pizza" target="_blank" rel="noopener noreferrer" class="bento-btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bento-shine"></div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 2 — DEFAULT              │
+                     │ Accent: Purple                   │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card" data-category="game" data-index="1" data-accent="#8b5cf6">
+                    <div class="bento-card-glow"></div>
+                    <div class="bento-card-inner">
+                        <div class="bento-curtain"></div>
+                        <a href="Weather app/index.html" class="bento-img-link">
+                            <img src="assets/img/weather lemon.jpg" alt="Lemonade Stand" loading="lazy" />
+                        </a>
+                        <div class="bento-gradient"></div>
+                        <span class="bento-watermark">02</span>
+                        <div class="bento-hover">
+                            <div class="bento-hover-top"><span class="bento-cat"><i class="fas fa-cloud-sun"></i> Simulation</span></div>
+                            <div class="bento-hover-bottom">
+                                <h3 class="bento-title">Lemonade Stand<span class="accent">.</span></h3>
+                                <p class="bento-desc">Weather-based business simulation with dynamic conditions.</p>
+                                <div class="bento-stack">
+                                    <span class="bento-tag-0">HTML5</span>
+                                    <span class="bento-tag-1">CSS3</span>
+                                    <span class="bento-tag-2">JS</span>
+                                    <span class="bento-tag-3">API</span>
+                                </div>
+                                <div class="bento-actions">
+                                    <a href="Weather app/index.html" class="bento-btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                                    <a href="https://github.com/herbsattwo-glitch/Weather-app" target="_blank" rel="noopener noreferrer" class="bento-btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bento-shine"></div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 3 — DEFAULT              │
+                     │ Accent: Amber                    │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card" data-category="game" data-index="2" data-accent="#f59e0b">
+                    <div class="bento-card-glow"></div>
+                    <div class="bento-card-inner">
+                        <div class="bento-curtain"></div>
+                        <a href="Guessing game/index.html" class="bento-img-link">
+                            <img src="assets/img/guessing game.jpg" alt="Guessing Game" loading="lazy" />
+                        </a>
+                        <div class="bento-gradient"></div>
+                        <span class="bento-watermark">03</span>
+                        <div class="bento-hover">
+                            <div class="bento-hover-top"><span class="bento-cat"><i class="fas fa-dice"></i> Interactive</span></div>
+                            <div class="bento-hover-bottom">
+                                <h3 class="bento-title">Guessing Game<span class="accent">.</span></h3>
+                                <p class="bento-desc">Number challenge with validation and live score tracking.</p>
+                                <div class="bento-stack">
+                                    <span class="bento-tag-0">HTML5</span>
+                                    <span class="bento-tag-1">CSS3</span>
+                                    <span class="bento-tag-2">JavaScript</span>
+                                </div>
+                                <div class="bento-actions">
+                                    <a href="Guessing game/index.html" class="bento-btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                                    <a href="https://github.com/herbsattwo-glitch/Guessing-game" target="_blank" rel="noopener noreferrer" class="bento-btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bento-shine"></div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 4 — WIDE                 │
+                     │ Accent: Pink                     │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card" data-size="wide" data-category="app" data-index="3" data-accent="#ec4899">
+                    <div class="bento-card-glow"></div>
+                    <div class="bento-card-inner">
+                        <div class="bento-curtain"></div>
+                        <a href="Shopping cart/index.html" class="bento-img-link">
+                            <img src="assets/img/shopping cart.jpg" alt="Shopping Cart" loading="lazy" />
+                        </a>
+                        <div class="bento-gradient"></div>
+                        <span class="bento-watermark">04</span>
+                        <div class="bento-hover">
+                            <div class="bento-hover-top"><span class="bento-cat"><i class="fas fa-cart-shopping"></i> E-Commerce</span></div>
+                            <div class="bento-hover-bottom">
+                                <h3 class="bento-title">Dynamic Cart<span class="accent">.</span></h3>
+                                <p class="bento-desc">Real-time state management for quantities with persistent calculations and add/remove flow.</p>
+                                <div class="bento-stack">
+                                    <span class="bento-tag-0">HTML5</span>
+                                    <span class="bento-tag-1">CSS3</span>
+                                    <span class="bento-tag-2">JavaScript</span>
+                                </div>
+                                <div class="bento-actions">
+                                    <a href="Shopping cart/index.html" class="bento-btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                                    <a href="https://github.com/herbsattwo-glitch/Shopping-cart" target="_blank" rel="noopener noreferrer" class="bento-btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bento-shine"></div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 5 — DEFAULT              │
+                     │ Accent: Teal                     │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card" data-category="app" data-index="4" data-accent="#14b8a6">
+                    <div class="bento-card-glow"></div>
+                    <div class="bento-card-inner">
+                        <div class="bento-curtain"></div>
+                        <a href="https://web-production-21f70.up.railway.app" target="_blank" rel="noopener noreferrer" class="bento-img-link">
+                            <img src="assets/img/habit tracker.jpg" alt="Habit Tracker" loading="lazy" />
+                        </a>
+                        <div class="bento-gradient"></div>
+                        <span class="bento-watermark">05</span>
+                        <div class="bento-hover">
+                            <div class="bento-hover-top"><span class="bento-cat"><i class="fas fa-check-double"></i> Full-Stack</span></div>
+                            <div class="bento-hover-bottom">
+                                <h3 class="bento-title" style="font-size:1.1rem;margin-bottom:.2rem;">Habit Tracker<span class="accent">.</span></h3>
+                                <p class="bento-desc" style="font-size:.75rem;line-height:1.4;margin-bottom:.4rem;-webkit-line-clamp:2;">Django full-stack habit tracker with user and admin dashboards.</p>
+                                <div class="bento-stack" style="margin-bottom:.4rem;">
+                                    <span class="bento-tag-0">Python</span>
+                                    <span class="bento-tag-1">Django</span>
+                                    <span class="bento-tag-2">SQLite</span>
+                                </div>
+                                <div class="bento-actions">
+                                    <a href="https://web-production-21f70.up.railway.app" target="_blank" rel="noopener noreferrer" class="bento-btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                                    <a href="https://github.com/herbsattwo-glitch/Habit-Tracker-_-Full-Stack-Django.git" target="_blank" rel="noopener noreferrer" class="bento-btn-secondary"><i class="fab fa-github"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bento-shine"></div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 6 — EMPTY (DEFAULT)      │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card pf-coming-soon" data-category="design" data-index="5" data-accent="#f97316">
+                    <div class="bento-card-inner">
+                        <div class="coming-soon-content">
+                            <div class="coming-soon-icon"><i class="fas fa-plus"></i></div>
+                            <span class="coming-soon-label">Project 06</span>
+                            <span class="coming-soon-sub">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 7 — EMPTY (WIDE)         │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card pf-coming-soon" data-size="wide" data-category="app" data-index="6" data-accent="#22c55e">
+                    <div class="bento-card-inner">
+                        <div class="coming-soon-content">
+                            <div class="coming-soon-icon"><i class="fas fa-plus"></i></div>
+                            <span class="coming-soon-label">Project 07</span>
+                            <span class="coming-soon-sub">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 8 — EMPTY (DEFAULT)      │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card pf-coming-soon" data-category="game" data-index="7" data-accent="#ef4444">
+                    <div class="bento-card-inner">
+                        <div class="coming-soon-content">
+                            <div class="coming-soon-icon"><i class="fas fa-plus"></i></div>
+                            <span class="coming-soon-label">Project 08</span>
+                            <span class="coming-soon-sub">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 9 — EMPTY (TALL)         │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card pf-coming-soon" data-size="tall" data-category="tool" data-index="8" data-accent="#6366f1">
+                    <div class="bento-card-inner">
+                        <div class="coming-soon-content">
+                            <div class="coming-soon-icon"><i class="fas fa-plus"></i></div>
+                            <span class="coming-soon-label">Project 09</span>
+                            <span class="coming-soon-sub">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ┌──────────────────────────────────┐
+                     │ PROJECT 10 — EMPTY (DEFAULT)     │
+                     └──────────────────────────────────┘ -->
+                <div class="bento-card pf-coming-soon" data-category="design" data-index="9" data-accent="#0ea5e9">
+                    <div class="bento-card-inner">
+                        <div class="coming-soon-content">
+                            <div class="coming-soon-icon"><i class="fas fa-plus"></i></div>
+                            <span class="coming-soon-label">Project 10</span>
+                            <span class="coming-soon-sub">Coming Soon</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- end bento-grid -->
+
+            <!-- GitHub CTA -->
+            <div class="pf-cta" data-animate="fade-up">
+                <a href="https://github.com/herbsattwo-glitch?tab=repositories" target="_blank" rel="noopener noreferrer" class="pf-cta-btn">
+                    <div class="pf-cta-bg"></div>
+                    <div class="pf-cta-content">
+                        <i class="fab fa-github"></i>
+                        <span class="pf-cta-text"><strong>Explore all projects on GitHub</strong><small>github.com/herbsattwo-glitch</small></span>
+                        <i class="fas fa-arrow-right pf-cta-arrow"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="content-section section-dark" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-left" data-animate="fade-right">
+                    <span class="section-eyebrow">Contact</span>
+                    <h2 class="section-title">Let's build<br>something <span class="gradient-text">amazing</span><br>together<span class="accent">.</span></h2>
+                    <p class="section-description">Whether you have a project idea, a collaboration proposal, or just want to chat about gaming and tech — my inbox is always open.</p>
+                </div>
+                <div class="contact-right" data-animate="fade-left">
+                    <div class="contact-card glass-card"><div class="contact-item"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div class="contact-detail"><span class="contact-label">Email</span><a href="mailto:herbsattwo@gmail.com" class="contact-value">herbsattwo@gmail.com</a></div><a href="mailto:herbsattwo@gmail.com" class="contact-arrow" aria-label="Send email"><i class="fas fa-arrow-right"></i></a></div></div>
+                    <div class="contact-card glass-card"><div class="contact-item"><div class="contact-icon"><i class="fab fa-github"></i></div><div class="contact-detail"><span class="contact-label">GitHub</span><a href="https://github.com/herbsattwo-glitch?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-value">herbsattwo-glitch</a></div><a href="https://github.com/herbsattwo-glitch?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-arrow" aria-label="View GitHub profile"><i class="fas fa-arrow-right"></i></a></div></div>
+                    <div class="contact-card glass-card"><div class="contact-item"><div class="contact-icon"><i class="fab fa-youtube"></i></div><div class="contact-detail"><span class="contact-label">Portfolio Channel</span><a href="https://www.youtube.com/@HerbertPortfolio" target="_blank" rel="noopener noreferrer" class="contact-value">@HerbertPortfolio</a></div><a href="https://www.youtube.com/@HerbertPortfolio" target="_blank" rel="noopener noreferrer" class="contact-arrow" aria-label="View YouTube channel"><i class="fas fa-arrow-right"></i></a></div></div>
+                    <div class="contact-card glass-card"><div class="contact-item"><div class="contact-icon"><i class="fas fa-gamepad"></i></div><div class="contact-detail"><span class="contact-label">Gaming Channel</span><a href="https://www.youtube.com/@TheAfricanGamer1andonly" target="_blank" rel="noopener noreferrer" class="contact-value">@TheAfricanGamer</a></div><a href="https://www.youtube.com/@TheAfricanGamer1andonly" target="_blank" rel="noopener noreferrer" class="contact-arrow" aria-label="View gaming channel"><i class="fas fa-arrow-right"></i></a></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand"><span class="footer-logo">HA<span class="accent">.</span></span><p class="footer-tagline">Creating digital experiences</p></div>
+                <div class="footer-socials">
+                    <a class="social-link-modern" href="https://github.com/herbsattwo-glitch?tab=repositories" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a class="social-link-modern" href="https://www.youtube.com/@HerbertPortfolio" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a class="social-link-modern" href="https://www.youtube.com/@TheAfricanGamer1andonly" target="_blank" rel="noopener noreferrer" aria-label="The African Gamer"><i class="fas fa-gamepad"></i></a>
+                </div>
+                <div class="footer-copy"><p>&copy; 2026 Herbert Adogo. All rights reserved.</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <a class="scroll-to-top" href="#page-top" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        // Set CSS custom property from data-accent attribute
+        document.querySelectorAll('.bento-card[data-accent]').forEach(function(card) {
+            card.style.setProperty('--card-accent', card.getAttribute('data-accent'));
+        });
+    </script>
+</body>
+</html>

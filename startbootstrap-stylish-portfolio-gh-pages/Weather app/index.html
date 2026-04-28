@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ✅ Ensures text displays correctly -->
+    <meta charset="UTF-8">
+
+    <!-- ✅ Makes the page mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ✅ Title shown in browser tab -->
+    <title>Lemonade Stand Game</title>
+
+    <!-- ✅ Connect external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ✅ WEATHER FORECAST AREA (JS will fill this automatically) -->
+    <div id="5DayWeather"></div>
+
+    <!-- ✅ Clears floating elements so layout doesn’t break -->
+    <br clear="all">
+
+    <!-- ✅ PLAYER INPUT FORM -->
+    <div id="orderForm">
+
+        <!-- Number of glasses player wants to make -->
+        <label>
+            How many glasses of lemonade will you make?
+            <input type="number" id="numGlasses" placeholder="Example: 60">
+        </label>
+
+        <!-- Price per glass -->
+        <label>
+            Price per glass ($):
+            <input type="number" id="glassPrice" placeholder="Example: 1.25">
+        </label>
+
+        <!-- Button to start the game -->
+        <button id="OpenTheStand">Open The Stand</button>
+    </div>
+
+    <!-- ✅ RESULTS AREA (JS will print here) -->
+    <div id="result"></div>
+
+    <!-- ✅ Connect external JavaScript file -->
+    <script src="main.js"></script>
+
+</body>
+</html>

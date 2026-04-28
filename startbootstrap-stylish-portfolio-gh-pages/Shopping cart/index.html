@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <!-- This sets the title shown in the browser tab -->
+    <title>Shopping Cart</title>
+
+    <!-- This connects the CSS file to this HTML page -->
+    <!-- Make sure shopStart.css is in the SAME folder -->
+    <link rel="stylesheet" href="shopStart.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <!-- This is the main heading shown on the page -->
+    <h1>Simple Shopping Cart</h1>
+
+    <!-- 
+        This paragraph is EMPTY on purpose.
+        JavaScript will INSERT the shopping table here.
+    -->
+    <div id="demo"></div>
+
+    <!-- Line break for spacing -->
+    <br>
+
+    <!-- 
+        When this button is clicked,
+        it runs the checkout() function in JavaScript
+    -->
+    <button class="checkout-btn" onclick="checkout()">Checkout</button>
+
+    <!-- 
+        This is where the final total amount
+        will be displayed after checkout
+    -->
+    <div id="total"></div>
+
+    <!-- 
+        This connects the JavaScript file.
+        It MUST be placed at the bottom so the page loads first.
+    -->
+    <script src="shopStart.js"></script>
+
+</body>
+</html>

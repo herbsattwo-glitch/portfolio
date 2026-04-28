@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- Tells the browser this is a modern HTML page -->
+
+<html>
+
+<head>
+    <!-- Info about the page (not visible) -->
+
+    <meta charset="utf-8">
+    <!-- Allows normal text -->
+
+    <title>JavaScript Pizzeria</title>
+    <!-- Browser tab title -->
+
+    <link rel="stylesheet" href="practice_pizza.css">
+    <!-- Connects CSS for styling -->
+</head>
+
+<body>
+
+    <h1>JavaScript Pizzeria</h1>
+    <!-- Big heading -->
+
+    <div id="orderForm">
+        <!-- Box that holds the form -->
+
+        <label>
+            How many pizzas do you want?
+            <input type="number" id="numPizzas">
+            <!-- User types a number -->
+        </label>
+
+        <br><br>
+
+        <label>
+            What kind of pizza?
+            <select id="typePizza">
+                <!-- Dropdown with pizza types -->
+                <option value="cheese">Cheese</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="veggie">Veggie</option>
+                <option value="bbq">BBQ Chicken</option>
+                <option value="hawaiian">Hawaiian</option>
+                <option value="supreme">Supreme</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <label>
+            Where do you live?
+            <select id="deliveryCity">
+                <option value="Anytown">Anytown</option>
+                <option value="Sacramento">Sacramento</option>
+                <option value="Beverly Hills">Beverly Hills</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="San Francisco">San Francisco</option>
+                <option value="San Diego">San Diego</option>
+                <option value="Fresno">Fresno</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <label>
+            Is it your birthday?
+            <select id="birthday">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </label>
+
+        <br><br>
+
+        <button type="button" id="placeOrder">
+            Place Order
+        </button>
+        <!-- Button to submit order -->
+    </div>
+
+    <div id="displayTotal"></div>
+    <!-- JavaScript writes results here -->
+
+    <script src="practice_pizza.js"></script>
+    <!-- Connect JavaScript file -->
+
+</body>
+</html>

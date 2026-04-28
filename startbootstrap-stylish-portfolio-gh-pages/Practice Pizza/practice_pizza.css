@@ -1,0 +1,69 @@
+/* This styles the entire page */
+body {
+    font-family: Arial, sans-serif;        /* Clean, readable font */
+    background-color: #fff3e0;             /* Light pizza-dough color */
+    margin: 0;                             /* Remove default browser spacing */
+    padding: 0;
+}
+
+/* Big title at the top */
+h1 {
+    text-align: center;                    /* Center the text */
+    color: #b71c1c;                        /* Dark pizza red */
+    margin-top: 20px;
+}
+
+/* The order form box */
+#orderForm {
+    background-color: #ffffff;             /* White card */
+    border: 4px solid #d32f2f;              /* Tomato red border */
+    border-radius: 10px;                    /* Rounded corners */
+    padding: 20px;                          /* Space inside the box */
+    width: 350px;                           /* Fixed width */
+    margin: 30px auto;                      /* Center horizontally */
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2); /* Soft shadow */
+}
+
+/* Labels (questions) */
+label {
+    font-weight: bold;                     /* Make text thicker */
+    color: #5d4037;                        /* Dark brown (crust color) */
+}
+
+/* Inputs and dropdowns */
+input, select {
+    width: 100%;                           /* Fill the container */
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+button {
+    width: 100%;
+    background-color: #d32f2f;             /* Pizza red */
+    color: white;                          /* White text */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;                       /* Hand cursor */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #b71c1c;             /* Darker red */
+}
+
+/* Output area */
+#displayTotal {
+    background-color: #ffffff;
+    border: 2px dashed #d32f2f;
+    width: 350px;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}

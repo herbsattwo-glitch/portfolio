@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Title shown in the browser tab -->
+    <title>Guess the Secret Number</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main container to center everything -->
+    <div class="container">
+
+        <!-- Game heading -->
+        <h2>Guess the Secret Number</h2>
+
+        <!-- Instructions -->
+        <p class="subtitle">Enter a number between 1 and 20</p>
+
+        <label for="guessInput"> Guess number :</label>
+
+        <!-- Number input where the user types their guess -->
+        <input type="number" id="guessInput" min="1" max="20">
+
+        <!-- Button that runs the JavaScript function when clicked -->
+        <button onclick="checkGuess()">Guess</button>
+
+        <!-- Area where feedback messages will appear -->
+        <p id="message"></p>
+
+    </div>
+
+    <!-- Link to external JavaScript file (always at the bottom) -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
